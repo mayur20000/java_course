@@ -1,7 +1,7 @@
 package BasicsOfJava;
 
 public class basics{
-    public static void main(String[] args){
+    public static void main(){
         System.out.println("Hello Mayur");
         System.out.println("Hello Mayur Vishwakarma");
         System.out.println("hello World");
