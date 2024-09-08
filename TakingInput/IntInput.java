@@ -1,7 +1,5 @@
 package BasicsOfJava.TakingInput;
-
 import java.util.Scanner;
-
 public class IntInput {
     public static void main() {
         Scanner scan = new Scanner(System.in);
