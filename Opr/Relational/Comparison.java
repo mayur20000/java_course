@@ -1,4 +1,4 @@
-package BasicsOfJava.Relational;
+package BasicsOfJava.Opr.Relational;
 
 public class Comparison {
 
