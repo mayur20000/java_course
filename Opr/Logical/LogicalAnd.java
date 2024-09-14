@@ -9,8 +9,8 @@ public class LogicalAnd {
 
         boolean  a = true;
         boolean b = false;
-
-        System.out.println("Result"+ a);
+        boolean Result = a && b ;
+        System.out.println("Result = "+ a);
     }
 
 }
