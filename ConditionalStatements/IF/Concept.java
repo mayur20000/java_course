@@ -11,9 +11,7 @@
 // -- Jump: Alters the flow (e.g., break, continue, return).
 
 
-
-
-package BasicsOfJava.ConditionalStatements;
+package BasicsOfJava.ConditionalStatements.IF;
 
 public class Concept {
 
@@ -24,7 +22,6 @@ public class Concept {
     }
 
      */
-
 
 
 }

@@ -6,7 +6,7 @@
 //  the statements within the if block get executed to calculate total cost after discount.
 
 
-package BasicsOfJava.ConditionalStatements;
+package BasicsOfJava.ConditionalStatements.IF;
 
 public class If_Demo {
     public static void main(String[] args) {
