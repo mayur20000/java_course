@@ -9,22 +9,17 @@
 package BasicsOfJava.ConditionalStatements;
 
 public class If_Demo {
-
-    public static void main(String [] args){
-
+    public static void main(String[] args) {
         String customerType = "Regular";
         int quantity = 3;
         float unitPrice = 10;
         float totalCost = 0;
         float discount = 5;
-
         totalCost = quantity * unitPrice;
-
-        if (customerType == "Regular"){
-            totalCost = totalCost -  (totalCost * discount / 100);
+        if (customerType == "Regular") {
+            totalCost = totalCost - (totalCost * discount / 100);
             System.out.println("You are a regular customer and eligible for 5% discount");
-
         }
-        System.out.println("Total Cost = " +totalCost);
+        System.out.println("Total Cost = " + totalCost);
     }
 }
