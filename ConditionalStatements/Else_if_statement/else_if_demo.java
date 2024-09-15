@@ -17,7 +17,7 @@ public class else_if_demo {
             totalCost = totalCost + deliveryCharge;
             System.out.println("You need to pay an additional delivery charge of $5");
             System.out.println("The total cost to be paid is" + totalCost);
-        } else // If there is only one statement inside a block, {} is optional
+        } else // If there is only one statement inside a block, {} is optio
             System.out.println("Invalid customer type");
     }
 
