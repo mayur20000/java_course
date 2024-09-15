@@ -28,4 +28,3 @@ public class else_if_scanner {
             System.out.println("Customer type is invalid");
     }
 }
-git
