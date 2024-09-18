@@ -34,8 +34,10 @@ public class Nested_if_scanner {
                 System.out.println("Congrats !!!! You got a free voucher !!!!");
             }
         } else if (customerType == "Guest") {
+
             totalCost = totalCost - (totalCost + deliveryCharge);
             System.out.println("you need to pay an extra delivery charge ");
+
         } else {
             System.out.println("Invalid customer type ");
         }
