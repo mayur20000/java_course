@@ -10,7 +10,7 @@ public class Concept {
     /*
 
     do {
-    <statements>;
+     <statements>;
     {while (<condition>);
 
      */
