@@ -1,0 +1,14 @@
+The 'for' loop is used when the number of iterations are known.
+
+for(<initialization>; <condition>; <increment/decrement>) {
+  <statements>;
+}
+
+# Initialization: It is used for initializing the variables used for checking the condition.
+ It is executed only once and gets executed when the loop starts.
+
+# Condition: It is used for checking the condition to decide whether the loop should be terminated or executed.
+ If the condition is true, the body of the loop is executed, else loop terminates.
+
+# Increment / Decrement: It increments or decrements the value of the variable used for checking the condition after every
+iteration of the loop.
