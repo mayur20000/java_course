@@ -1,6 +1,5 @@
 package BasicsOfJava.SheriyansClass;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Range {
