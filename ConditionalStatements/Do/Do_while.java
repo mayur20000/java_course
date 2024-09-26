@@ -16,7 +16,7 @@ public class Do_while {
             System.out.println("Do you want to add more food items to the order? Y or N");
             String input = sc.next();
             wantToAddFoodItem = input.charAt(0);
-        } while (wantToAddFoodItem == 'Y');Y
+        } while (wantToAddFoodItem == 'Y');
         System.out.println("Thank you for ordering the food! It will reach you shortly...");
     }
 
