@@ -2,7 +2,7 @@ package BasicsOfJava.SheriyansClass;
 
 import java.util.Scanner;
 
-public class problem40 {
+public class problem39 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter any number : ");
