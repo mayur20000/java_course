@@ -12,7 +12,7 @@ public class problem40 {
             System.out.println("Press 1 to repeat the task");
             ch = scan.nextInt();
 
-        }git
+        }
         while (ch == 1);
 
     }
