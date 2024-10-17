@@ -1,4 +1,4 @@
-package BasicsOfJava.ConditionalStatements.ForLoop;
+package BasicsOfJava.ConditionalStatements.SwitchCase;
 
 import java.util.Scanner;
 
@@ -6,7 +6,6 @@ public class Divisible {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        // Input for number 'n' and 'x'
         int n = scan.nextInt();
         int x = scan.nextInt();
 
@@ -19,11 +18,48 @@ public class Divisible {
                     temp++;
                 }
             }
-            if (x == temp) {
-                count++;
+
+            switch (temp) {
+                case 2:
+                    if (x == 2) count++;
+                    break;
+                case 3:
+                    if (x == 3) count++;
+                    break;
+                // Add more cases if needed
+                default:
+                    if (temp == x) count++;
+                    break;
             }
         }
 
         System.out.println("Count: " + count);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
