@@ -22,5 +22,13 @@ class Main {
 
         // Call the method to display the student's information
         student.displayInfo();
+
+        Student student2 = new Student();
+
+        student2.name = "Mayur";
+        student2.rollNumber = 123;
+        student2.displayInfo();
+
+
     }
 }
