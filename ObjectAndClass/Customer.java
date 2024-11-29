@@ -1,7 +1,5 @@
 package BasicsOfJava.ObjectAndClass;
 
-import java.sql.SQLOutput;
-
 public class Customer {
     public String customerId;
     public String customerName;
@@ -25,7 +23,7 @@ public class Customer {
         customer.contactNumber = 7987660323L;
         customer.address = "D089, St. Louis Street, Springfield, 62729";
         customer.displaytCustomerDetails();
-        
+
 
     }
 
